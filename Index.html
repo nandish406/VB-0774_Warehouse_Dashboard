@@ -38,7 +38,6 @@
              <th>Order ID</th>
              <th>Item</th>
              <th>Priority</th>
-             <th>Quantity</th>
              <th>City</th>
              <th>Dispatched</th>
              <th>Shipped</th>
@@ -199,8 +198,7 @@
 
                   trHTML += '<tr><td>' + data.feed.entry[i].gsx$orderid.$t + 
                           '</td><td>' + data.feed.entry[i].gsx$item.$t + 
-                          '</td><td>' + data.feed.entry[i].gsx$priority.$t + 
-                          '</td><td>' + data.feed.entry[i].gsx$quantity.$t + 
+                          '</td><td>' + data.feed.entry[i].gsx$priority.$t +  
                           '</td><td>'  + data.feed.entry[i].gsx$city.$t +  
                           '</td><td>'  + data.feed.entry[i].gsx$dispatched.$t + 
                           '</td><td>'  + data.feed.entry[i].gsx$shipped.$t +
